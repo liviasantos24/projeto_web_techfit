@@ -24,7 +24,7 @@
     <textarea id="mensagem" name="mensagem" rows="5" required style="width:100%;padding:8px;border-radius:5px;border:none;"></textarea>
 
     <button type="submit">Enviar Mensagem</button>
-    
+
     <?php if (isset($_GET['sucesso'])): ?>
         <p class="msg-sucesso">Mensagem enviada com sucesso! ✅</p>
     <?php elseif (isset($_GET['erro'])): ?>
@@ -91,3 +91,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     background: #333;
 }
 </style>
+
