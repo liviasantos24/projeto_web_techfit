@@ -70,7 +70,7 @@ require_once 'config/db.php';
         </div>
     </div>
 
-    <!-- VÔLEI -->
+    <!-- QUARTA-->
     <div class="esporte-card">
           <h2>  Quarta</h2>
         <div class="categorias">
@@ -97,7 +97,7 @@ require_once 'config/db.php';
         </div>
     </div>
 
-    <!-- BASQUETE -->
+    <!-- QUINTA -->
     <div class="esporte-card">
         <h2>QUINTA</h2>
         <div class="categorias">
@@ -124,7 +124,7 @@ require_once 'config/db.php';
         </div>
     </div>
 
-    <!-- HANDEBOL -->
+    <!-- SEXTA -->
     <div class="esporte-card">
         <h2>SEXTA</h2>
         <div class="categorias">
