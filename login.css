@@ -1,0 +1,112 @@
+:root {
+  --cor-primaria: #00e6e6;
+  --cor-secundaria: #098DAC;
+  --cor-destaque: #04C260;
+  --cor-fundo: #000000ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--cor-fundo);
+  color: #000000ff;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+/* ========================= */
+/*     SEÇÃO FUNCIONÁRIOS    */
+/* ========================= */
+#aulas {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 40px;
+  background: #000000ff;
+  border-radius: 30px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+#aulas h2 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 60px;
+  color: black;
+  background-color: var(--cor-primaria);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.97);
+}
+.modalidades {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.modalidades h2 {
+    color: #00e6e6;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background: #111;
+    border: 2px solid #00e6e6;
+    text-align: left;
+    border-radius: 10px;
+    padding: 25px;
+    width: 260px;
+    transition: 0.3s;
+    
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px #00e6e6;
+    
+}
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.card img:hover {
+    box-shadow: 0 0 15px #00e6e6;
+    transform: scale(1.03);
+   
+}
+
+.card h3 {
+    color: #00e6e6;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #ccc;
+    font-size: 16px;
+}
+
+footer {
+  background: #000000ff;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  color: #333;
+  margin-top: 40px;
+}
+</style>
