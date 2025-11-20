@@ -152,125 +152,96 @@ footer {
 <body>
 <main>
   <section id="funcionarios">
-    <h2>Nossos Funcionários</h2>
+    <h2>Nossos Personais</h2>
 
-    <!-- FUTSAL -->
     <div class="bloco-func">
-      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgEFAhP9Z9vRQlwMT8xqBSPt7uDu1VtGBRxlNmP0wxekZdhLcxyZnlPEdzhXRaF2YZR0Q0CDlmeWeFOnAxVytDbDFSP8Kqp3eNBswzVCqE3AMXM_4FiixTxr5dmlUTcyDygHSurTvWRlSUrqzpsBvAvk12RqqiIJfpmAfX2k2jU7ZVjeUp0QIzd99fkC-XY" alt="Treinadores de Futsal">
+      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhN_xBST0rCgDudbVJXtXdOfMzQ5QrDJx7DDU8yHVg9LJNtsVMbKiz9PeAyCalcaEcZQuKG57VsI-mqvIweSGYRcbTkvLL7DUN_hUKHdu8SNa8w2a48qOLs5LUZbQYqMgQdkHiFVnGpMPmwb0qTJYMuq0F2iK2SdHZeXOW09oVhZKOaijXtSB85dcNVBro" alt="Treinadores de Futsal">
       <div>
-        <h3>Treinadores de Futsal
-            (Pública/Particular)</h3>
-        <p><b>Caua Oliveira</b> — Conhecido por sua visão de jogo e passes milimétricos, Caua ensina tática e controle de bola com excelência.</p>
-        <p><b>Patrícia Rocha</b> — Goleadora nata e defensora implacável, inspira seus alunos com garra e técnica refinada.</p>
+        <p><b>Caua Oliveira</b> — Conhecido por trabalhar com hipertrofia e performance, unindo biomecânica e periodização. Seus treinos são precisos, seguros e ideais para quem busca evolução consistente.</p>
+        <p><b>Patrícia Rocha</b> — Combina treinamento funcional e musculação para desenvolver força, resistência e postura. Com foco em mulheres, ela cria treinos que valorizam curvas naturais e promovem autoconfiança.</p><br>
       </div>
     </div>
 
-    <!-- BASQUETE -->
     <div class="bloco-func">
-      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEi6uWc-zJ2FdSMqEhYOnbzSyBrjqeXWwCedngZ_VM66TsAQZfVC1aWCr5gkA-SC2duO9ckAzmZFEvqFYdscZHajjChG4LmMDOosFM-V7e7xZsivZYg7-FsrGQqZNvivkEfKfzuMwwVljSr5A-PR8tg-kqJBKIQxLWzDQwclm9WIafUd-w51unqAXM0L184x" alt="Treinadores de Basquete">
+      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjUdHiIoqgZh_ZQHkb_Kd7a0PBiET3JA9WoiL-Vnt8Ft8eqdRTzwg2P8VMcwosjPQDEH3RYkh2NrEhzIrXTJCATI8zxSwzXsVCrrM23SFAJVzOQPwebSpmk_q9yPSvGp6ETNq30HaoPY9Ur6fX-QSoPkv-3m-M0voRPuNUcWGtG7FcKeiIfKuZM68QL3jw" alt="Treinadores de Basquete">
       <div>
-        <h3>Treinadores de Basquete</h3>
-        <p><b>Rafael Silva</b> — Ex-jogador profissional, foca em fundamentos sólidos e estratégias de equipe.</p>
-        <p><b>Camila Mendes</b> — Instrutora energética e técnica, trabalha resistência física e mental com foco na defesa.</p>
+        <p><b>Rafael Silva</b> — Une biomecânica e mobilidade para criar treinos que previnem dores e melhoram o movimento. Ideal para iniciantes ou pessoas que querem treinar com segurança.</p>
+        <p><b>Camila Mendes</b> — Especialista em emagrecimento saudável e alta intensidade. Ela utiliza HIIT, funcional e musculação para acelerar resultados e melhorar a saúde metabólica.</p><br>
       </div>
     </div>
 
-    <!-- VÔLEI DE PRAIA -->
     <div class="bloco-func">
-      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgLRprIIPq13t-YtKRjQBZVn8CywNdsYIrf_rqg6ZZrF6Eg3UeLPAD35lFVQzNfDV3kjiZfhrbE76Qz-OtoUgScgye90TMJCKVUnDfdYGW9Kbdx1sGagEKBQxhRiGFxNUYLMGJ7t25hkF6A9EZaEAQrZXtjzdJwYYaURb06IiTffWaeixH_l21CXn8Hm3iu" alt="Treinadores de Vôlei de Praia">
+      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhz7P_tRwdN4vHBXfGN8HhT5Z60_s-CHISUYciOAOTwAXw9cUk4TEW1ucNf4lRekWJ9X25xlMZgZurFr5JtDDHTULmN8DQtCJ3WhbfWe3lXs-CmTgdz5rTPgDrRhd8K-RD_jKYKYvzVQGRd5uiJiepnzLVpDsX9BpQ66DsdDuwcRgrsUDoxsjzmoYLqLFk" alt="Treinadores de Vôlei de Praia">
       <div>
-        <h3>Treinadores de Vôlei de Praia (Pública/Particular)</h3>
-        <p><b>Ricardo Guedes</b> — Ex-atleta profissional, especialista em defesa e estratégias de vento na areia.</p>
-        <p><b>Fernanda Diniz</b> — Potência na rede e especialista em ataques explosivos e bloqueio.</p>
+        <p><b>Ricardo Guedes</b> — Usa estratégias avançadas de força e hipertrofia para transformação física. Seus treinos são estruturados, intensos e voltados para resultados mensuráveis.</p>
+        <p><b>Fernanda Diniz</b> — Foca em treinos femininos voltados para glúteos, core e definição. Ela cria rotinas motivadoras e acessíveis, perfeitas para quem busca resultados notáveis sem complicações.</p><br>
       </div>
     </div>
 
-    <!-- VÔLEI DE Quadra-->
     <div class="bloco-func">
-      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEiXlOeSfpgEXN2e3qLAMnLGzWBSGxlgiHmqAWRBNLrV6v7Wfb3tiqXRduHmUu0lisF83rvU6YZAV4rMby9BkW2JPFK1yW4a34FL-mIO_0Xgynr0nb87PaRMn_v_-IAOHn1bHKEgXrpnkV18i0qotlKano3MMUXUc1M7qkJobCc2v6NduQzkxOZLKKiewXA1" alt="Treinadores de Vôlei de Quadra">
+      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhVXON1YoYKvAaaf7zsSj-WlJEg-D6Y-0u3ZUeYetCOOxUqZ2xtPlopE7_G1-QpxxYwb51GfXJJuJ6tnaz5b75jmoCB7h6OwDnaURhXietSLQEKiXrxGb4V1Dx_GTpB9NBpOIHLtwQJ3VFFsCK-s8IympJgvcfDus6LTbcb0RmjupAe52M7j3HpPjsE4Fo" alt="personais">
       <div>
-        <h3>Treinadores de Vôlei de Quadra</h3>
-        <p><b>Felipe Castro</b> — Felipe é especialista em levantamentos precisos e estratégicos, com ampla experiência no vôlei de alto nível. Ele ensina visão de jogo, toque apurado e comunicação eficaz para formar equipes vencedoras..</p>
-        <p><b>Clara Lacerda</b> — Clara é especialista em bloqueios e ataques potentes, reconhecida por sua técnica impecável e presença marcante na rede. Ela inspira seus alunos a desenvolver força, agilidade e confiança para dominar a quadra.</p>
-      </div>
-    </div>
-    <!-- Handebol -->
-    <div class="bloco-func">
-      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEj30FhEC0y1KZXK6MHb1zV9Kfxwsk07cpwq_B_PXbzTKKWjUPF5nxr47iWlydcEBaxZVZMQg6gd0yQ6AwUomoAnlYKX-AHw1mzeYSGiy_AJtD170L2i7EmfO1RgtDwMskrdKjg5yKf-J9D-cuBo-Jzk70W2DrAraRxYRTeVB9KzZu5yvdy5ByE5x0qB31Ao" alt="Instrutores de handebol">
-      <div>
-        <h3>Instrutores de Handebol</h3>
-        <p><b>Gabriel Almeida</b> — Gabriel é especialista em bloqueios e ataques potentes, reconhecido por sua técnica impecável e presença marcante na rede. Ele inspira seus alunos a desenvolver força, agilidade e confiança para dominar a quadra.</p>
-        <p><b>Aline Ferreira</b> — Carol é ex-goleira de destaque, admirada por sua inteligência tática e excelência defensiva. Com visão privilegiada de jogo, ensina posicionamento, marcação e ritmo, formando atletas com leitura apurada e disciplina exemplar.</p>
+        <p><b>Felipe Castro</b> — Trabalha com condicionamento físico e performance esportiva. Seus treinos unem velocidade, agilidade e potência para elevar o nível de atletas e iniciantes.</p>
+        <p><b>Clara Lacerda</b> — Especialista em alongamento, flexibilidade e mobilidade. Ela cria treinos que aumentam amplitude, aliviam tensões e melhoram o bem-estar diário.</p><br>
       </div>
     </div>
 
-    <!-- JIU-JÍTSU -->
     <div class="bloco-func">
-      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEj4HA-NVd_83lvvjvjdWfBLRH5swyM0tEXkLVSEPevLvlWcqOya87USTwYt3mnG9kTUqUseAGDFzk5pXnnDPm5paJSnDURz38LZjlZ0G0laRlZmrYnuIDgnvxRdhVPlPMtn6pPTPa4jtWud3g1ZGd38FmchnngeO0pzyQA0kdsDUA_IR9mR9RIdPIrvH5pW" alt="Instrutores de Jiu-Jítsu">
+      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhphg_4r14RTjQVSsS_MTiuPOksaqU8YElQy6P883u6wENseD8iusVnclIwHm5SHREWxhXNpD1v1-uUyacCWFywKSCCPudXOzsqZv56R8ac4NK_xsJeX_t8TJQUE16OOqgF6fGSuSeJWj_Gk8dGakc-_Q4Oip9m8jt32ksfgWblDGl_1CGCUKWu7RDxlF8" alt="personais">
       <div>
-        <h3>Instrutores de Jiu-Jítsu</h3>
-        <p><b>Mestre Rodrigo Sales</b> — Faixa preta renomado, ensina técnica e filosofia do Jiu-Jítsu com foco em eficiência e paciência.</p>
-        <p><b>Bianca Castro</b> — Especialista em estrangulamentos e guarda, destaca técnica sobre força e respeito mútuo.</p>
+        <p><b>Gabriel Almeida</b> — Expert em treinos para iniciantes. Ele ensina técnica, corrige movimentos e cria rotinas simples e eficazes para quem está começando.</p>
+        <p><b>Aline Ferreira</b> — Combina pilates solo e funcional para fortalecer o core, melhorar postura e reduzir dores. Suas sessões são suaves, focadas e totalmente personalizadas.</p><br>
       </div>
     </div>
 
- <!-- KARATER -->
     <div class="bloco-func">
-      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjmtdeyFpCYDj0ogRpCH3UqVtlY_Aj0q9tcPTbMwJIFcqY93I-bBC00qDAVoE1Y2agytOoj3_rrXEOwSRwwTPA3imcu7nogvM3jRtOuzZplOwW0Fbu29vrkRtBnLmwLYC-m_pikL6FdhTEptTT9JuFzP1mcOkfhLVaBzFyUDfroJ88wRiKqzEC5TIGA2TWv" alt="Instrutores de Karatê">
+      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhzW4kYde5Ve-hLTDbu--xQAjXqaaMoCSz5nKZXoLcGfDrppqReXrciHZYrYL70c7QiWz7Qy_aCiEyk5hFMdvXupdSqHpnlwXzMIoGUGrx4eZ2DNKh_aSV4BIjqsVcZVTj5XmGmyoNAS58X0m87mlmiW9mPWW6vRm3ZwAvIbAr_Li_7jzaqz1WCS0l_qAM" alt="personais">
       <div>
-        <h3>Instrutores de Karatê</h3>
-        <p><b>Sensei Johnny Lawrence</b> — Sensei Hiroshi Tanaka é um mestre renomado em katas, conhecido por sua técnica precisa e disciplina mental. Ele busca formar atletas com excelência técnica e caráter sólido
-        <p><b> Sensei Lívia Medeiros</b> — Lívia é especialista em agilidade, defesa pessoal e kumitê, destacando-se pelo ensino da velocidade, estratégia e autoconfiança. Sua missão é inspirar alunos a superar desafios com técnica e resiliência.</p>
+        <p><b>Rodrigo Sales</b> — Une calistenia e musculação para desenvolver força real e controle corporal. Treinos dinâmicos, versáteis e acessíveis para qualquer nível.</p>
+        <p><b>Clara Castro</b> — Trabalha com emagrecimento, definição e autoestima. Seus treinos motivadores unem cardio, musculação e desafios semanais para manter o foco.</p><br>
       </div>
     </div>
-     <!-- NATAÇÃO-->
+
     <div class="bloco-func">
-      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjffjpdeHu_oI1apL8lM7nZ9L2xDExYTBgV2DjGeia3NjE4eEtlmKdR4CVCnpgSc1tTGukRKDN5GGXbn5a34mwdY8S6M03DQUIb0O1mqbQvVcGg9gNl55OoRglqb3EZZXnauSoch0JEPztwx8nSD6qOB48XO9lNR8ua2IcsMegzeqGZbeuM_vWTx4NsFUoP" alt="Instrutores de Natação">
+      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjzKdIxZ7tmg_rZQp30dvm2fNDY5vvTZ2d-qyR00It5qi317AD3n6vUNlTI2oBzGdOF99Ed2B3-qjCDQdqq6mIubOTNSvuk_ppCsdDqEgodOEcDuST5PeUIeWcbIqIpxFOcA8pvnaPgCJvfzlQhsa2MsvFd2IUMrcoBE9_PEV_nKF3PXIXk8QLczQ9F5Fw" alt="Instrutores de Karatê">
       <div>
-        <h3>Professora Ana Soares
-</h3>
-        <p><b>Ana é instrutora especializada em natação para bebês, conduzindo aulas seguras e divertidas em piscina aquecida sem cloro. Com experiência e certificação pediátrica, ela promove o desenvolvimento motor, o vínculo afetivo e a adaptação positiva dos pequenos ao meio aquático.</p>
+        <p><b>Johnny Lawrence</b> — Utiliza métodos de alta intensidade para quem gosta de treinos rápidos e eficientes. Ideal para quem tem pouco tempo e quer sentir resultado.
+        <p><b>Lívia Medeiros</b> — Especialista em treinos para terceira idade. Ela trabalha equilíbrio, mobilidade e força, promovendo saúde, autonomia e bem-estar.</p><br>
+      </div>
+    </div>
     
-      </div>
-    </div>
-    <!-- NATAÇÃO -->
     <div class="bloco-func">
-      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhIZ-CyykcuaAHRv3ocVoRVv65q8SZPrdTwTaEtFEwwTUdbvXDOo19DL9bqz3QO6UomYriMb8-IaXCkycTr0myuq78cjD92KTN0CHxcAecDM15yNjhVLZqEzaXl0gbRR2_lGOktLjh5muWiNYIQJWBaWL57Cp220wZvh8r7D_ez1tR9O3VNT5ibHFZCmbTD" alt="Instrutores de Natação">
+      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhQlfrtcrNJOaSNzb9DBnlJRiHe9rMLePHJQj53EHkjNJyRRdDp5oynIjnNaSXf1v6y_7vLzp90fQNskhGvrV5TPOuN7y8BFbXjOEtPHG91jGVu1IqNSkQrEEDc0Za6dN2aa84bUyP6peIt-L6TXR6kPCRErSNjB4Vy6nniStSeVzighcAdpYZO6Tho0BM" alt="Instrutores de Natação">
       <div>
-        <h3>Instrutores de Natação (Adultos, Criança e adoslecentes)</h3>
-        <p><b>Professor Caio Nogueira</b> — Caio é especialista em performance e técnica de nado para jovens e adultos. Com experiência em natação competitiva, ele aprimora os quatro estilos, focando em resistência, velocidade e eficiência na água.<p>
-        <p><b>Professora Bianca Silva</b> — Bianca é responsável pela iniciação e desenvolvimento aquático infantil. Com aulas lúdicas e progressivas, ela ajuda as crianças a ganhar confiança, coordenação e segurança na água, preparando-as para níveis mais avançados.</p>
+        <p><b>Caio Nogueira</b> — Tem abordagem leve, acolhedora e técnica. Ela cria treinos para mulheres que desejam emagrecer sem pressão, aprendendo a treinar de forma prazerosa.<p>
+        <p><b>Bianca Silva</b> — Foca em reabilitação e fortalecimento após lesões. Ele adapta exercícios para recuperar função, força e confiança no movimento.</p>
       </div>
     </div>
 
-    <!-- PERSONAIS -->
     <div class="bloco-func">
-      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEi8NeKuQCx6hThvvlsvJeOHKirftFlPpiYWbhzWIx6sQwq9tDIT4g2LEAhvsXYx46viNpOzGM9depjUeTUM6HQ4zoRAfJ161AUky0g5Nfo5cuM9aG8GSfWyRmEBx_YCvQhoenicywQoBUGUm8Djijkp-MIDaRI35Hxz4oDXAg1ar-N9oHRrSj-P6fSV-eGo" alt="Personais">
+      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEj-d0k7f-HY9fzT3cZLwlgt3kxyeddnKvBy-DgHZwwliQua8xO3w5psII0dS4s117J3QVp9jzSS4LE1vQ-ihEX75wi2Bsm0vBlFKY-ZG7IghyJqJZsxOduc9SyZRQJC7G7d_D94Iqu6K-OJQ0oc_ZkN7aYkOlNOd7xAlCjrK7UF7JRnOZpiZlNj2-kElME" alt="Personais">
       <div>
-        <h3>Personais</h3>
         <p><b>Rafael Costa</b> — Especialista em hipertrofia e definição muscular, com foco em execução perfeita e resultados reais.</p>
-        <p><b>Camila Barros</b> — Focada em resistência e preparação física, inspira superação e força mental em seus alunos.</p>
+        <p><b>Camila Barros</b> — Focada em resistência e preparação física, inspira superação e força mental em seus alunos.</p><br>
       </div>
     </div>
 
-    <!-- PERSONAIS -->
     <div class="bloco-func">
-      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjpLOlWC10eVWhnpR7-8BHGZKE2ql1K6A9N9PCL7iXni0pvlZ0hmmsaZTgZke7xpf1mbMavM_er-aJvYoIOaJxErsJw9MKLxBeDOu3zQFvFJ5BpymFxEBpzUjqWBVQbgnEGrdOvujfpSMwZ7oJ7zZxiB0BHO2DlsrPooGRe0BpZYKcWVCmj0uF85bu0O8a6" alt="Personais">
+      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjVbh3BTXEitQ47N3qdg3J8ww9D1rKE2ck6OCjh0CoZ-olEuwi8Th6FJUkWI3XluTTU3hwEDuz5o1fRziYMgFBL2aLQd3-276vOvq6fjBHOXlKzYdcLsMfJyXs_Y5GiJVMgpIrv7UlLJlSuE-MjeuilhvuamI_-HvSiFBerMq6Glr5qGAmo6qh-GfsfZtE" alt="Personais">
       <div>
-        <h3>Personais</h3>
         <p><b> Bruno Sales</b> —Bruno é especialista em treinamento funcional e HIIT, conhecido por sua energia contagiante e paixão por motivar. Suas aulas são dinâmicas, desafiadoras e voltadas para resultados rápidos e um estilo de vida saudável.</p>
-        <p><b>Sofia Mendes</b> —Sofia é especialista em cinesiologia e biomecânica, criando treinos personalizados que aumentam o desempenho e previnem lesões. Ela ensina seus alunos a compreender o corpo e a treinar com técnica e propósito.</p>
+        <p><b>Sofia Mendes</b> —Sofia é especialista em cinesiologia e biomecânica, criando treinos personalizados que aumentam o desempenho e previnem lesões. Ela ensina seus alunos a compreender o corpo e a treinar com técnica e propósito.</p><br>
       </div>
     </div>
-    <!-- PERSONAIS -->
+    
     <div class="bloco-func">
-      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjC2nmMSrxYPRQ0jaHImgc2tTnCAuseQI30N9M815U56UF-ZcMrtrjmDYpz00-oHA-FIcedIhSLGVSQfX_fCx3tsvhs8HoSMCDzkvabmA6Lm58XUg2Y5DbNdwQllPO6BPfc4aakyvNdxIuCjQ3pmlMSHNJWEPZlQgwgJhl1IMA6kBw1_xd7JzjZ-0wAvwQj" alt="Personais">
+      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEicMgZyGYmA4aPMJJ--YjVCQGxO6Ie4C4Z0MOCYjhq5exLGRHgZuaOnfSUVVuOAuyKgWaoL8tRaXLsTcuHxLvwRXEwMjKqmtbGpZdLnW8GwIZzrUabMy1dPMa_UQH6eCs56lXql69xFG4LQs-8Eu1-dEmrZe89lCWEw7tHlISO7uTjWSIYtof9Vc-yQFbo" alt="Personais">
       <div>
-        <h3>Personais</h3>
-        <p><b> Lucas Pereira</b> —Lucas tem uma abordagem holística do bem-estar, unindo força, flexibilidade e equilíbrio. Especialista em pilates, yoga e mobilidade, ele cria treinos que integram corpo e mente, promovendo postura, alívio de dores e funcionalidade diária.</p>
-        <p><b>Fernanda Garcia</b> —Fernanda é especialista em massagem, treinamento funcional e core stability. Com foco no peso corporal, ela melhora força, coordenação e agilidade, oferecendo treinos intensos e dinâmicos que elevam a performance e quebram a rotina.</p>
+        <p><b> Lucas Pereira</b> — Lucas tem uma abordagem holística do bem-estar, unindo força, flexibilidade e equilíbrio. Especialista em pilates, yoga e mobilidade, ele cria treinos que integram corpo e mente, promovendo postura, alívio de dores e funcionalidade diária.</p>
+        <p><b>Fernanda Garcia</b> — Fernanda é especialista em massagem, treinamento funcional e core stability. Com foco no peso corporal, ela melhora força, coordenação e agilidade, oferecendo treinos intensos e dinâmicos que elevam a performance e quebram a rotina.</p><br>
       </div>
     </div>
+  
 
 <a href="index.php" class="btn-voltar">⬅ Voltar ao Início</a>
 <style>
@@ -293,5 +264,7 @@ footer {
 
 
 <footer>Centro Esportivo TechFit © 2025</footer>
+</section>
+</main>
 </body>
 </html>
