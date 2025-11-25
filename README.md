@@ -29,12 +29,11 @@ Desenvolver uma aplicação web que facilite o acompanhamento fitness e promova 
 ---
 
 ##  Tecnologias Utilizadas
-- **HTML5**
-- **CSS3**
-- **PHP** (ou outra linguagem escolhida para o back-end)
-- **MySQL** (ou outro banco de dados relacional)
-- **Git & GitHub** (para controle de versão)
-
+- **HTML**
+- **CSS**
+- **PHP**
+- **PHPMYADMIN** 
+- **GitHub** 
 ---
 
 ##  Integrantes
@@ -47,15 +46,7 @@ Desenvolver uma aplicação web que facilite o acompanhamento fitness e promova 
 ---
 
 ##  Status do Projeto
-🔹 Em desenvolvimento.
-
----
-
-##  Futuras Implementações
-- Aplicativo mobile integrado à plataforma web;  
-- Sistema de chat entre aluno e treinador;  
-- Relatórios automáticos de evolução física;  
-- Notificações e lembretes personalizados.
+🔹 Pronto.
 
 ---
 
