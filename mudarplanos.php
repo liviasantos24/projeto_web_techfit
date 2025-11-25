@@ -17,6 +17,7 @@ require_once 'config/db.php';
             </p>
 
             <ul class="lista">
+                <li>✔ Fidelidade</li>
                 <li>✔ Acesso ilimitado a todas as unidades</li>
                 <li>✔ Leve 5 amigos por mês</li>
                 <li>✔ Cadeira de massagem</li>
@@ -33,10 +34,11 @@ require_once 'config/db.php';
 
             <p class="preco">
                 <span class="valor">R$ 9,90*</span><br>
-                no 1º mês, depois R$ 99,90/mês
+                no 1º mês, depois R$ 119,90/mês
             </p>
 
             <ul class="lista">
+                <li>✔ Fidelidade</li>
                 <li>✖ Acesso ilimitado</li>
                 <li>✖ Levar amigos</li>
                 <li>✖ Cadeira de massagem</li>
@@ -53,10 +55,11 @@ require_once 'config/db.php';
 
             <p class="preco">
                 <span class="valor">R$ 9,90*</span><br>
-                no 1º mês, depois R$ 119,90/mês
+                no 1º mês, depois R$ 99,90/mês
             </p>
 
             <ul class="lista">
+                <li>✖ Fidelidade</li>
                 <li>✖ Acesso ilimitado</li>
                 <li>✖ Levar amigos</li>
                 <li>✖ Cadeira de massagem</li>
@@ -95,7 +98,6 @@ function confirmarPlano(plano) {
     font-size: 18px;
 }
 
-/* Container dos cards */
 .container-planos {
     display: flex;
     justify-content: center;
@@ -175,7 +177,7 @@ function confirmarPlano(plano) {
     box-shadow: 0 0 15px #ff29f4;
 }
 
-/* Responsivo */
+
 @media (max-width: 900px) {
     .card-plano {
         width: 90%;
