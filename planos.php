@@ -30,7 +30,7 @@
 
             <p class="preco">
                 <span class="valor">R$ 9,90*</span><br>
-                no 1º mês, depois R$ 99,90/mês
+                no 1º mês, depois R$ 119,90/mês
             </p>
 
             <ul class="lista">
@@ -51,7 +51,7 @@
 
             <p class="preco">
                 <span class="valor">R$ 9,90*</span><br>
-                no 1º mês, depois R$ 119,90/mês
+                no 1º mês, depois R$ 99,90/mês
             </p>
 
             <ul class="lista">
