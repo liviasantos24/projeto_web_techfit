@@ -1,5 +1,5 @@
 <?php
-require_once 'config/db.php'; 
+require_once 'config/db.php';
 
 $mensagem = '';
 
@@ -8,14 +8,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = $_POST['email'];
     $cpf = $_POST['cpf'];
 
-    // Salva no banco
-    $sql = "INSERT INTO cadastros (nome, email, cpf, data_cadastro)
-            VALUES (?, ?, ?, NOW())";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param("sss", $nome, $email, $cpf);
-    $stmt->execute();
+    $codigo = str_pad(rand(1, 9999), 4, '0', STR_PAD_LEFT);
 
-    $mensagem = "Cadastro realizado com sucesso!";
+    $sql = "INSERT INTO cadastros (nome, email, cpf, codigo) 
+            VALUES (?, ?, ?, ?)";
+
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("ssss", $nome, $email, $cpf, $codigo);
+
+    if ($stmt->execute()) {
+        $mensagem = "Cadastro realizado com sucesso!<br>Seu código de acesso é:<br><strong>$codigo</strong>";
+    } else {
+        $mensagem = "Erro ao cadastrar.";
+    }
 }
 ?>
 <!DOCTYPE html>
