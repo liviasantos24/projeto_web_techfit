@@ -5,7 +5,7 @@ $mensagem = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $codigo = $_POST['codigo'];
-    $query = "SELECT * FROM cadastros WHERE codigo_particular = '$codigo'";
+    $query = "SELECT * FROM cadastros WHERE codigo = '$codigo'";
     $result = mysqli_query($conn, $query);
 
     if (mysqli_num_rows($result) > 0) {
@@ -18,7 +18,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
