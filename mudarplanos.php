@@ -2,7 +2,7 @@
 require_once 'config/db.php';
 ?>
 <section class="mudar-planos">
-    <h2>Mudar de Plano</h2>
+    <h2>Mudar de Plano ou Excluir</h2>
     <p class="sub">Escolha o novo plano que deseja migrar:</p>
 
     <div class="container-planos">
@@ -25,7 +25,8 @@ require_once 'config/db.php';
                 <li>✔ App TechFit</li>
             </ul>
 
-            <button class="btn-contratar" onclick="confirmarPlano('Black')">Mudar para este plano</button>
+           <p><button class="btn-contratar" onclick="confirmarPlano('Black')">Mudar para este plano</button></p>
+            <button class="btn-contratar" onclick="excluirplano('Black')">excluir plano</button>
         </div>
 
         <!-- Plano Fit -->
@@ -46,12 +47,13 @@ require_once 'config/db.php';
                 <li>✔ App TechFit</li>
             </ul>
 
-            <button class="btn-contratar" onclick="confirmarPlano('Fit')">Mudar para este plano</button>
+           <p> <button class="btn-contratar" onclick="confirmarPlano('Fit')">Mudar para este plano</button></p>
+            <button class="btn-contratar" onclick="excluirplano('fit')">excluir plano</button>
         </div>
 
-        <!-- Plano Smart -->
+        <!-- Plano Tech -->
         <div class="card-plano">
-            <h3>Plano Smart</h3>
+            <h3>Plano Tech</h3>
 
             <p class="preco">
                 <span class="valor">R$ 9,90*</span><br>
@@ -67,8 +69,27 @@ require_once 'config/db.php';
                 <li>✔ App TechFit</li>
             </ul>
 
-            <button class="btn-contratar" onclick="confirmarPlano('Smart')">Mudar para este plano</button>
+            <p><button class="btn-contratar" onclick="confirmarPlano('Tech')">Mudar para este plano</button></p>
+             <button class="btn-contratar" onclick="excluirplano('Tech')">excluir plano</button>
         </div>
+              <a href="index2.php" class="btn-voltar">⬅ Voltar ao Início</a>
+        <style>
+.btn-voltar {
+    display: inline-block;
+    background: #111;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.3s;
+    margin-bottom: 20px;
+}
+.btn-voltar:hover {
+    background: #333;
+}
+</style>
+
 
     </div>
 </section>
@@ -78,6 +99,12 @@ function confirmarPlano(plano) {
     alert("Plano " + plano + " confirmado com sucesso!");
 }
 </script>
+<script>
+function excluirplano(plano) {
+    alert("Plano " + plano + " excluido com sucesso!");
+}
+</script>
+ 
 <style>
 .mudar-planos {
     text-align: center;
@@ -177,10 +204,11 @@ function confirmarPlano(plano) {
     box-shadow: 0 0 15px #ff29f4;
 }
 
-
 @media (max-width: 900px) {
     .card-plano {
         width: 90%;
     }
 }
 </style>
+
+
