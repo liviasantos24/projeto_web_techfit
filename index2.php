@@ -6,10 +6,10 @@ require_once 'config/db.php';
 <head>
     <meta charset="UTF-8">
     <title>Área Particular - Centro Esportivo TechFit</title>
-    <style>
-        
 
-/* ====== GERAL ====== */
+    <style>
+
+
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
@@ -17,7 +17,7 @@ body {
     color: #fff;
 }
 
-/* ====== HEADER ====== */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -41,7 +41,7 @@ nav a.active {
     text-shadow: 0 0 10px #00e6e6;
 }
 
-/* ====== BOAS-VINDAS ====== */
+
 .boas-vindas {
     text-align: center;
     padding: 80px 10%;
@@ -56,66 +56,6 @@ nav a.active {
     text-shadow: 0 0 10px #00e6e6;
 }
 
-/* ====== PAINEL ====== */
-.painel {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-    padding: 20px 10%;
-}
-
-.info-box {
-    background-color: #1a1a1a;
-    border-radius: 15px;
-    padding: 25px;
-    width: 320px;
-    box-shadow: 0 0 15px rgba(0, 230, 230, 0.2);
-    transition: 0.3s;
-}
-
-.info-box:hover {
-    transform: scale(1.03);
-    box-shadow: 0 0 20px rgba(0, 230, 230, 0.4);
-}
-
-.info-box h2 {
-    color: #00e6e6;
-    margin-bottom: 10px;
-}
-
-/* ====== PROGRESSO ====== */
-.progress-bar {
-    background: #333;
-    border-radius: 20px;
-    height: 12px;
-    overflow: hidden;
-    margin-top: 10px;
-}
-
-.progress {
-    background: #00e6e6;
-    height: 100%;
-    border-radius: 20px;
-}
-
-/* ====== ATALHOS ====== */
-.atalhos {
-    text-align: center;
-    padding: 60px 10%;
-}
-
-.atalhos h2 {
-    color: #00e6e6;
-    margin-bottom: 25px;
-}
-
-.atalhos-btns {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-}
 
 .modalidades {
     padding: 80px 20px;
@@ -127,6 +67,7 @@ nav a.active {
     font-size: 32px;
     margin-bottom: 40px;
 }
+
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -142,66 +83,75 @@ nav a.active {
     padding: 25px;
     width: 260px;
     transition: 0.3s;
-    
 }
 
-.maior{
-    
-    font-size: 20px;
-}
-
-.menor{
-    font-size: 14px;
-    opacity: 0.8;
-}
-.menor-menor{
-    font-size: 12px;
-    opacity: 0.8;
-}
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 0 20px #00e6e6;
-    
-}
-.card img {
-    width: 100%;
-    height: 160px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 15px;
-}
-.card img:hover {
-    box-shadow: 0 0 15px #00e6e6;
-    transform: scale(1.03);
-   
 }
 
-.card h3 {
-    color: #00e6e6;
-    font-size: 22px;
-    margin-bottom: 10px;
+.maior {
+    font-size: 20px;
 }
 
-.card p {
-    color: #ccc;
-    font-size: 16px;
+.menor {
+    font-size: 14px;
+    opacity: 0.8;
 }
-.btn {
-    background-color: #00e6e6;
-    color: #0d0d0d;
-    padding: 12px 25px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: 600;
+
+.menor-menor {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+
+.estrutura {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #060A12;
+}
+
+.estrutura h2 {
+    color: #00EAFF;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.estrutura .galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.estrutura .galeria img {
+    width: 300px;
+    border-radius: 10px;
     transition: 0.3s;
 }
 
-.btn:hover {
-    background-color: #00b3b3;
-    transform: translateY(-2px);
+.estrutura .galeria img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #FF29F4;
 }
 
-/* ====== FOOTER ====== */
+
+.btn-voltar {
+    display: inline-block;
+    background: #111;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.3s;
+    margin-bottom: 20px;
+}
+.btn-voltar:hover {
+    background: #333;
+}
+
+
 footer {
     background-color: #0b0b0b;
     text-align: center;
@@ -212,63 +162,79 @@ footer {
 }
 
     </style>
+
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="https://blogger.googleusercontent.com/img/a/AVvXsEg3xbKPWUZ9OJfhNpM3vlqZkjV7JvguHGiSWKumgauhf94ioe89D3cYsCXXdefkCcXVbeyHBX-3iIPY8Ukwc3j7tQGtFitVcB6iwMvzSp6TmK1GMDMlaVBGG3ZYSeLrdV2iKyi_QfuzO3q353dvYXi0pIosrN8SexBRKfI_L66ZXA0aYJFuASOZJXGUobkm"
-                 style="width:100px;height:100px;border-radius:50%;object-fit:cover;"
-                 alt="Logo TechFit">
+
+<header>
+    <div class="logo">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEg3xbKPWUZ9OJfhNpM3vlqZkjV7JvguHGiSWKumgauhf94ioe89D3cYsCXXdefkCcXVbeyHBX-3iIPY8Ukwc3j7tQGtFitVcB6iwMvzSp6TmK1GMDMlaVBGG3ZYSeLrdV2iKyi_QfuzO3q353dvYXi0pIosrN8SexBRKfI_L66ZXA0aYJFuASOZJXGUobkm"
+             style="width:100px;height:100px;border-radius:50%;object-fit:cover;"
+             alt="Logo TechFit">
+    </div>
+
+    <nav>
+        <div class="atalhos-btns">
+            <a href="treinadoress.php" class="btn">Personais</a>
+            <a href="mudarplanos.php" class="btn">Mudar Planos</a>
+            <a href="contato.php" class="btn">Contato</a>
+            <a href="treinador.php" class="btn">Escolher Personais</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <section class="boas-vindas">
+        <h1>Bem-vindo(a) à sua área do aluno!</h1>
+        <p>Continue sua jornada de evolução com suporte completo da TechFit 💪</p>
+    </section>
+
+    <section class="modalidades">
+        <h2>Conheça nossos produtos e serviços adicionais para você</h2>
+        <p>Só na Techfit há serviços e produtos para potencializar seus resultados</p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Apoio completo para sua rotina fitness</h3>
+                <p>Consultoria de treino + nutricionista online + exame de bioimpedância + bebidas esportivas.<br><br>
+                <b class="maior">R$39,90</b><span class="menor">/mês<br>12 meses</span></p>
+            </div>
+
+            <div class="card">
+                <h3>Acompanhamento personalizado de treino</h3>
+                <p>Treino online criado por treinador profissional.<br><br>
+                <b class="maior">R$39,90</b><span class="menor">/mês<br>12 meses</span></p>
+            </div>
+
+            <div class="card">
+                <h3>Bebidas esportivas</h3>
+                <p>Bebidas para te ajudar antes, durante e depois do treino!<br><br>
+                <b class="maior">R$24,90</b><span class="menor">/mês</span></p>
+            </div>
         </div>
 
-        <nav>
-            <div class="atalhos-btns">
-                <a href="treinadoress.php" class="btn">Personais</a>
-                <a href="mudarplanos.php" class="btn">Mudar Planos</a>
-                <a href="contato.php" class="btn">Contato</a>
-                <a href="treinador.php" class="btn">Escolher Personais</a>
-            </div>
-        </nav>
-    </header>
+    </section>
 
-    <main>
-        <section class="boas-vindas">
-            <h1>Bem-vindo(a) à sua área do aluno!</h1>
-            <p>Continue sua jornada de evolução com suporte completo da TechFit 💪</p>
-        </section>
 
-        <section class="modalidades">
-            <h2>Conheça nossos produtos e serviços adicionais para você</h2>
-            <p>Só na Smart há serviços e produtos para potencializar seus resultados</p>
-            <div class="cards">
-                <div class="card">
-                    <h3>Apoio completo para sua rotina fitness</h3>
-                    <p>Consultoria de treino e nutricionista on-line + exame de bioimpedância + dose diária de bebidas esportivas e energéticas.<br><br><b class="maior">R$39,90</b><span class="menor">/mês<br>12 meses de permanência</span></p>
-                    <p><span class="menor-menor">Obs: Consulte a recepção para cadastro<span></p>
-                </div>
-            
-                <div class="cards">
-                    <div class="card">
-                        <h3>Acompanhamento personalizado de treino</h3>
-                        <p>Treino on-line personalizado criado por um treinador.<br><br>
-                        <b class="maior">R$39,90</b><span class="menor">/mês<br>12 meses de permanência</span></p>
-                        <p><span class="menor-menor">Obs: Consulte a recepção para cadastro<span></p>
-                    </div>
-                </div>
-                <div class="cards">
-                    <div class="card">
-                        <h3>Bebidas esportivas e energéticas em sabores</h3>
-                        <p>Bebidas esportivas para te ajudar antes, durante e depois do treino!<br><br>
-                        <b class="maior">R$24,90</b><span class="menor">/mês</span></p>
-                        <p><span class="menor-menor">Obs: Consulte a recepção para cadastro<span></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+    <section class="estrutura">
+        <h2>Nossa Estrutura</h2>
 
-    <footer>
-        <p>&copy; 2025 TechFit - Todos os direitos reservados.</p>
-    </footer>
+        <div class="galeria">
+            <img src="https://blogger.googleusercontent.com/img/a/AVvXsEiCPVXf0L2est7uqltW5GIZ26mBTQRRJTG7MvYXYjXLf2CQC8CPovKtgCOnhBSZOAhRZRmA1Er5YwL30T8v01L_o5SEAdxGShbuYACbA9_9OkJFbICLB39tYQHIfMlEZ791dey7wHbC2io7HOwRVhiBEWj_fmcd3UQouAdzxRBq08jvEsCeJqsvS_9L80nL">
+            <img src="https://blogger.googleusercontent.com/img/a/AVvXsEiOfkupgzm5VpYQNagUyLouGY3Je6ooHj189rX_i96nL-IPvo2jEDFsjVIeRYjl73C8-dqKqwP8NB3YwmMzS_5EH_8A8gSAMqeaPeL-0-ZheuhUf3G2ykXnEmxqoVbDaM6XgbAAnHvYLKRXZOts3wHx2zlEZvBO4aWprguE6jsiIJ8sHUIcXh5lq77yjE8w">
+    
+    </section>
+
+    <br><br>
+    <a href="index.php" class="btn-voltar">⬅ Voltar à Página Principal</a>
+
+</main>
+
+<footer>
+    <p>&copy; 2025 TechFit - Todos os direitos reservados.</p>
+</footer>
+
 </body>
 </html>
+
