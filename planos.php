@@ -20,8 +20,7 @@
                 <li>✔ Área de musculação e aeróbicos</li>
                 <li>✔ App TechFit</li>
             </ul>
-
-            <button class="btn-contratar">Contratar</button>
+            <button class="btn-contratar" onclick="confirmarPlano('black')">Assinar plano</button>
         </div>
 
         <!-- Plano Fit -->
@@ -41,13 +40,13 @@
                 <li>✔ Área de musculação e aeróbicos</li>
                 <li>✔ App TechFit</li>
             </ul>
+             <button class="btn-contratar" onclick="confirmarPlano('Fit')">Assinar plano</button>
 
-            <button class="btn-contratar">Contratar</button>
         </div>
 
-        <!-- Plano Smart -->
+        <!-- Plano Tech-->
         <div class="card-plano">
-            <h3>Plano Smart</h3>
+            <h3>Plano Tech</h3>
 
             <p class="preco">
                 <span class="valor">R$ 9,90*</span><br>
@@ -63,11 +62,34 @@
                 <li>✔ App TechFit</li>
             </ul>
 
-            <button class="btn-contratar">Contratar</button>
+            <button class="btn-contratar" onclick="confirmarPlano('Tech')">Assinar plano</button>
         </div>
+    
+        <a href="index.php" class="btn-voltar">⬅ Voltar ao Início</a>
+        <style>
+.btn-voltar {
+    display: inline-block;
+    background: #111;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.3s;
+    margin-bottom: 20px;
+}
+.btn-voltar:hover {
+    background: #333;
+}
+</style>
 
     </div>
 </section>
+<script>
+function confirmarPlano(plano) {
+    alert("Plano " + plano + " confirmado com sucesso!");
+}
+</script>
 <style>
 .planos {
     text-align: center;
@@ -162,3 +184,4 @@
     color: white;
 }
 </style>
+
